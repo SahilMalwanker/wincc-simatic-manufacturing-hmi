@@ -1,0 +1,41 @@
+address,direction,signal
+I0.0,input,Resin Enhancer Level Sensor Low
+I0.1,input,Resin Enhancer Level Sensor High
+I0.2,input,Resin Enhancer Overflow Sensor
+I0.3,input,Solvent Binder Level Sensor Low
+I0.4,input,Solvent Binder Level Sensor High
+I0.5,input,Solvent Binder Overflow Sensor
+I0.6,input,Red Pigment Level Sensor Low
+I0.7,input,Red Pigment Level Sensor High
+I1.0,input,Red Pigment Valve Open
+I1.1,input,Green Pigment Level Sensor Low
+I1.2,input,Green Pigment Level Sensor High
+I1.3,input,Green Pigment Valve Open
+I1.4,input,Blue Pigment Level Sensor Low
+I1.5,input,Blue Pigment Level Sensor High
+I1.6,input,Blue Pigment Valve Open
+I1.7,input,Agitator Running ON
+I2.0,input,Master High-Pressure Sensor
+I2.1,input,Master High-Temperature Sensor
+I2.2,input,Master High-Temperature Sensor
+I2.3,input,Mixing Tank Lid Open Sensor
+Q0.0,output,Resin Enhancer Pump Motor ON
+Q0.1,output,Resin Enhancer Inlet Valve Open
+Q0.2,output,Solvent Binder Pump Motor ON
+Q0.3,output,Solvent Binder Inlet Valve Open
+Q0.4,output,Pigment Circulation Valve ON
+Q0.5,output,Red Pigment Pump Motor ON
+Q0.6,output,Green Pigment Pump Motor ON
+Q0.7,output,Blue Pigment Pump Motor ON
+Q1.0,output,Pigment Inlet Valve Open
+Q1.1,output,Agitator Motor ON
+Q1.2,output,Mixing Tank Drain Valve ON
+Q1.3,output,Mixing Tank Outlet Valve ON
+Q1.4,output,Alarm Indicator Light ON
+Q1.5,output,Emergency Stop Output
+Q1.6,output,HMI Alarm Buzzer ON
+Q1.7,output,Safety Interlock Engaged ON
+Q2.0,output,Maintenance Lockout ON
+Q2.1,output,Batch Complete Indicator
+Q2.2,output,Backup Power Actuator ON
+Q2.3,output,Outlet Exhaust Fan ON
