@@ -1,0 +1,25 @@
+group,label,x,y
+warning,Main Tank Low Level,16,135
+warning,Filter Maintenance,113,135
+warning,Agitator Maintenance,222,135
+warning,Power Backup Activated,320,135
+warning,Slow Filling Rate,439,135
+warning,Nozzle Calibration,550,135
+warning,Fill Sequence Incomplete,6,185
+warning,Operator Override On,117,185
+warning,High Paint Level,228,185
+warning,Operator Inactivity,340,185
+warning,Flow Rate Inconsistency,431,185
+warning,Agitator Overspeed,551,185
+alarm,Tank Overfill,30,308
+alarm,Tank Overpressure,112,308
+alarm,Motor Overcurrent,224,308
+alarm,Valve Failure,352,308
+alarm,Pump Overload,450,308
+alarm,Agitator Motor Failure,532,308
+alarm,Filling Nozzle Leak,11,358
+alarm,Emergency Stop Active,118,358
+alarm,High Viscosity Detected,213,358
+alarm,Mixing Tank Temperature,328,358
+alarm,PLC Comm. Loss,440,358
+alarm,Safety Interlock OFF,539,355
