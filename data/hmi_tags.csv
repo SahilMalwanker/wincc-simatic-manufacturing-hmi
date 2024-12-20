@@ -1,0 +1,118 @@
+name,table,data_type,connection,plc_tag,access_mode,acquisition_cycle
+PainMix_DB_Sol_1_Switch,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Sol_1_Switch,<symbolic access>,1 s
+PainMix_DB_Sol_1_Pipe1,Default tag table,Int,HMI_Connection_1,PainMix_DB.Sol_1_Pipe1,<symbolic access>,1 s
+PainMix_DB_Sol_1_Pipe2,Default tag table,Int,HMI_Connection_1,PainMix_DB.Sol_1_Pipe2,<symbolic access>,1 s
+PainMix_DB_RED_Pipe,Default tag table,Int,HMI_Connection_1,PainMix_DB.RED_Pipe,<symbolic access>,1 s
+PainMix_DB_GREEN_Pipe,Default tag table,Int,HMI_Connection_1,PainMix_DB.GREEN_Pipe,<symbolic access>,1 s
+PainMix_DB_BLUE_Pipe,Default tag table,Int,HMI_Connection_1,PainMix_DB.BLUE_Pipe,<symbolic access>,1 s
+PainMix_DB_Control_Mode,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Control_Mode,<symbolic access>,1 s
+PainMix_DB_Sol_1_ValveCont,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Sol_1_ValveCont,<symbolic access>,1 s
+PainMix_DB_Sol_1_Valve_Status,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Sol_1_Valve_Status,<symbolic access>,1 s
+PainMix_DB_Sol_2_Valve_Status,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Sol_2_Valve_Status,<symbolic access>,1 s
+PainMix_DB_Red_Valve_Status,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Red_Valve_Status,<symbolic access>,1 s
+PainMix_DB_Green_Valve_Status,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Green_Valve_Status,<symbolic access>,1 s
+PainMix_DB_Blue_Valve_Status,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Blue_Valve_Status,<symbolic access>,1 s
+PainMix_DB_MainTank_Mixer_Status,Default tag table,Bool,HMI_Connection_1,PainMix_DB.MainTank_Mixer_Status,<symbolic access>,1 s
+PainMix_DB_Sol_2_ValveCont,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Sol_2_ValveCont,<symbolic access>,1 s
+PainMix_DB_Red_ValveCont,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Red_ValveCont,<symbolic access>,1 s
+PainMix_DB_Green_ValveCont,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Green_ValveCont,<symbolic access>,1 s
+PainMix_DB_Blue_ValveCont,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Blue_ValveCont,<symbolic access>,1 s
+Paramters_Paint_Mix_ResinE_Flow_Act,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.ResinE_Flow_Act,<symbolic access>,1 s
+Paramters_Paint_Mix_ResinE_Flow_Set,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.ResinE_Flow_Set,<symbolic access>,1 s
+Paramters_Paint_Mix_Binder_Flow_Act,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Binder_Flow_Act,<symbolic access>,1 s
+Paramters_Paint_Mix_Binder_Flow_Set,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Binder_Flow_Set,<symbolic access>,1 s
+Paramters_Paint_Mix_Defoaming_Set,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Defoaming_Set,<symbolic access>,1 s
+Paramters_Paint_Mix_Gloss Ratio_Set,Default tag table,Real,HMI_Connection_1,"Paramters_Paint_Mix.""Gloss Ratio_Set""",<symbolic access>,1 s
+Paramters_Paint_Mix_Level_Set_R,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Level_Set_R,<symbolic access>,1 s
+Paramters_Paint_Mix_Flowrate_Set_R,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Flowrate_Set_R,<symbolic access>,1 s
+Paramters_Paint_Mix_Viscosity_Set_R,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Viscosity_Set_R,<symbolic access>,1 s
+Paramters_Paint_Mix_Density_Set_R,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Density_Set_R,<symbolic access>,1 s
+Paramters_Paint_Mix_Temperature_Set_R,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Temperature_Set_R,<symbolic access>,1 s
+Paramters_Paint_Mix_Pressure_Set_R,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Pressure_Set_R,<symbolic access>,1 s
+Paramters_Paint_Mix_MixingSpeed_Set_MT,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.MixingSpeed_Set_MT,<symbolic access>,1 s
+Paramters_Paint_Mix_pH_MT,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.pH_MT,<symbolic access>,1 s
+Paramters_Paint_Mix_Viscosity_Set_MT,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Viscosity_Set_MT,<symbolic access>,1 s
+Paramters_Paint_Mix_Level_Set_MT,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Level_Set_MT,<symbolic access>,1 s
+PainMix_DB_Red_P_Rotor,Default tag table,Int,HMI_Connection_1,PainMix_DB.Red_P_Rotor,<symbolic access>,1 s
+PainMix_DB_Green_P_Rotor,Default tag table,Int,HMI_Connection_1,PainMix_DB.Green_P_Rotor,<symbolic access>,1 s
+PainMix_DB_Blue_P_Rotor,Default tag table,Int,HMI_Connection_1,PainMix_DB.Blue_P_Rotor,<symbolic access>,1 s
+PainMix_DB_Red_Tank_Level,Default tag table,Int,HMI_Connection_1,PainMix_DB.Red_Tank_Level,<symbolic access>,1 s
+DI_I0.1,Default tag table,Bool,HMI_Connection_1,"DI.""I0.1""",<symbolic access>,1 s
+DI_I0.2,Default tag table,Bool,HMI_Connection_1,"DI.""I0.2""",<symbolic access>,1 s
+DI_I0.0,Default tag table,Bool,HMI_Connection_1,"DI.""I0.0""",<symbolic access>,1 s
+DI_I0.4,Default tag table,Bool,HMI_Connection_1,"DI.""I0.4""",<symbolic access>,1 s
+DI_I0.5,Default tag table,Bool,HMI_Connection_1,"DI.""I0.5""",<symbolic access>,1 s
+DI_I0.6,Default tag table,Bool,HMI_Connection_1,"DI.""I0.6""",<symbolic access>,1 s
+DI_I0.7,Default tag table,Bool,HMI_Connection_1,"DI.""I0.7""",<symbolic access>,1 s
+DI_I1.0,Default tag table,Bool,HMI_Connection_1,"DI.""I1.0""",<symbolic access>,1 s
+DI_I1.1,Default tag table,Bool,HMI_Connection_1,"DI.""I1.1""",<symbolic access>,1 s
+DI_I1.2,Default tag table,Bool,HMI_Connection_1,"DI.""I1.2""",<symbolic access>,1 s
+DI_I1.3,Default tag table,Bool,HMI_Connection_1,"DI.""I1.3""",<symbolic access>,1 s
+DI_I1.4,Default tag table,Bool,HMI_Connection_1,"DI.""I1.4""",<symbolic access>,1 s
+DI_I1.5,Default tag table,Bool,HMI_Connection_1,"DI.""I1.5""",<symbolic access>,1 s
+DI_I1.6,Default tag table,Bool,HMI_Connection_1,"DI.""I1.6""",<symbolic access>,1 s
+DI_I1.7,Default tag table,Bool,HMI_Connection_1,"DI.""I1.7""",<symbolic access>,1 s
+DI_I2.0,Default tag table,Bool,HMI_Connection_1,"DI.""I2.0""",<symbolic access>,1 s
+DI_I2.1,Default tag table,Bool,HMI_Connection_1,"DI.""I2.1""",<symbolic access>,1 s
+DI_I2.2,Default tag table,Bool,HMI_Connection_1,"DI.""I2.2""",<symbolic access>,1 s
+DI_I2.3,Default tag table,Bool,HMI_Connection_1,"DI.""I2.3""",<symbolic access>,1 s
+DO_Q0.0,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.0""",<symbolic access>,1 s
+DO_Q0.1,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.1""",<symbolic access>,1 s
+DO_Q0.2,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.2""",<symbolic access>,1 s
+DO_Q0.3,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.3""",<symbolic access>,1 s
+DO_Q0.4,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.4""",<symbolic access>,1 s
+DO_Q0.5,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.5""",<symbolic access>,1 s
+DO_Q0.6,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.6""",<symbolic access>,1 s
+DO_Q0.7,Default tag table,Bool,HMI_Connection_1,"DO.""Q0.7""",<symbolic access>,1 s
+DO_Q1.0,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.0""",<symbolic access>,1 s
+DO_Q1.1,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.1""",<symbolic access>,1 s
+DO_Q1.2,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.2""",<symbolic access>,1 s
+DO_Q1.3,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.3""",<symbolic access>,1 s
+DO_Q1.4,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.4""",<symbolic access>,1 s
+DO_Q1.5,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.5""",<symbolic access>,1 s
+DO_Q1.6,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.6""",<symbolic access>,1 s
+DO_Q1.7,Default tag table,Bool,HMI_Connection_1,"DO.""Q1.7""",<symbolic access>,1 s
+DO_Q2.0,Default tag table,Bool,HMI_Connection_1,"DO.""Q2.0""",<symbolic access>,1 s
+DO_Q2.1,Default tag table,Bool,HMI_Connection_1,"DO.""Q2.1""",<symbolic access>,1 s
+DO_Q2.2,Default tag table,Bool,HMI_Connection_1,"DO.""Q2.2""",<symbolic access>,1 s
+DO_Q2.3,Default tag table,Bool,HMI_Connection_1,"DO.""Q2.3""",<symbolic access>,1 s
+Paramters_Paint_Mix_Act_Red_Tank_Temp,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Act_Red_Tank_Temp,<symbolic access>,1 s
+Paramters_Paint_Mix_Act_Green_Tank_Temp,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Act_Green_Tank_Temp,<symbolic access>,1 s
+Paramters_Paint_Mix_Act_Blue_Tank_Temp,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Act_Blue_Tank_Temp,<symbolic access>,1 s
+Paramters_Paint_Mix_Act_Red_Tank_Press,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Act_Red_Tank_Press,<symbolic access>,1 s
+Paramters_Paint_Mix_Act_Green_Tank_Press,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Act_Green_Tank_Press,<symbolic access>,1 s
+Paramters_Paint_Mix_Act_Blue_Tank_Press,Default tag table,Real,HMI_Connection_1,Paramters_Paint_Mix.Act_Blue_Tank_Press,<symbolic access>,1 s
+PainMix_DB_Green_Tank_Level,Default tag table,Int,HMI_Connection_1,PainMix_DB.Green_Tank_Level,<symbolic access>,1 s
+PainMix_DB_Blue_Tank_Level,Default tag table,Int,HMI_Connection_1,PainMix_DB.Blue_Tank_Level,<symbolic access>,1 s
+PainMix_DB_Sol_1_Tank_Level,Default tag table,Int,HMI_Connection_1,PainMix_DB.Sol_1_Tank_Level,<symbolic access>,1 s
+PainMix_DB_Sol_2_Tank_Level,Default tag table,Int,HMI_Connection_1,PainMix_DB.Sol_2_Tank_Level,<symbolic access>,1 s
+Recipe_Pigment Concentration,Default tag table,Real,HMI_Connection_1,"Recipe.""Pigment Concentration""",<symbolic access>,1 s
+Recipe_Resin Type and Ratio,Default tag table,Real,HMI_Connection_1,"Recipe.""Resin Type and Ratio""",<symbolic access>,1 s
+Recipe_Solvent Composition,Default tag table,Real,HMI_Connection_1,"Recipe.""Solvent Composition""",<symbolic access>,1 s
+Recipe_Additive Ratios,Default tag table,Real,HMI_Connection_1,"Recipe.""Additive Ratios""",<symbolic access>,1 s
+Recipe_Drying Agent Ratio,Default tag table,Real,HMI_Connection_1,"Recipe.""Drying Agent Ratio""",<symbolic access>,1 s
+Recipe_Viscosity Target,Default tag table,Real,HMI_Connection_1,"Recipe.""Viscosity Target""",<symbolic access>,1 s
+Recipe_Gloss Level,Default tag table,Real,HMI_Connection_1,"Recipe.""Gloss Level""",<symbolic access>,1 s
+Recipe_pH Control Range,Default tag table,Real,HMI_Connection_1,"Recipe.""pH Control Range""",<symbolic access>,1 s
+Recipe_Mixing Time,Default tag table,Real,HMI_Connection_1,"Recipe.""Mixing Time""",<symbolic access>,1 s
+Recipe_Curing Agent Proportion,Default tag table,Real,HMI_Connection_1,"Recipe.""Curing Agent Proportion""",<symbolic access>,1 s
+Recipe_Recipe_Name,Default tag table,String,HMI_Connection_1,Recipe.Recipe_Name,<symbolic access>,1 s
+PainMix_DB_MainTank_Mixer_Cont,Default tag table,Bool,HMI_Connection_1,PainMix_DB.MainTank_Mixer_Cont,<symbolic access>,1 s
+PainMix_DB_MainTank_Tank_Level,Default tag table,Int,HMI_Connection_1,PainMix_DB.MainTank_Tank_Level,<symbolic access>,1 s
+Paramters_Paint_Mix_Recipe_ID,Default tag table,String,HMI_Connection_1,Paramters_Paint_Mix.Recipe_ID,<symbolic access>,1 s
+Paramters_Paint_Mix_Recipe_Name,Default tag table,String,HMI_Connection_1,Paramters_Paint_Mix.Recipe_Name,<symbolic access>,1 s
+Paramters_Paint_Mix_Equip_ID,Default tag table,String,HMI_Connection_1,Paramters_Paint_Mix.Equip_ID,<symbolic access>,1 s
+Paramters_Paint_Mix_Batch_ID,Default tag table,String,HMI_Connection_1,Paramters_Paint_Mix.Batch_ID,<symbolic access>,1 s
+Paramters_Paint_Mix_Batch_Size,Default tag table,String,HMI_Connection_1,Paramters_Paint_Mix.Batch_Size,<symbolic access>,1 s
+Paramters_Paint_Mix_Start_Time,Default tag table,String,HMI_Connection_1,Paramters_Paint_Mix.Start_Time,<symbolic access>,1 s
+Paramters_Paint_Mix_Warning_1,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Warning_1,<symbolic access>,1 s
+Paramters_Paint_Mix_Warning_2,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Warning_2,<symbolic access>,1 s
+Paramters_Paint_Mix_Warning_3,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Warning_3,<symbolic access>,1 s
+Paramters_Paint_Mix_Alarm_1,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Alarm_1,<symbolic access>,1 s
+Paramters_Paint_Mix_Alarm_2,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Alarm_2,<symbolic access>,1 s
+Paramters_Paint_Mix_Common_A-W,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Common_A-W,<symbolic access>,1 s
+PainMix_DB_Alarm_ACK,Default tag table,Bool,HMI_Connection_1,PainMix_DB.Alarm_ACK,<symbolic access>,1 s
+Paramters_Paint_Mix_Language,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Language,<symbolic access>,500 ms
+Paramters_Paint_Mix_Button_Language,Default tag table,Bool,HMI_Connection_1,Paramters_Paint_Mix.Button_Language,<symbolic access>,1 s
+UserName_fromHMI,Default tag table,WString,<Internal tag>,,<symbolic access>,1 s
+MainT_Agitator,Paint_Mix,Int,HMI_Connection_1,PainMix_DB.Agitator_MainT,<symbolic access>,500 ms
