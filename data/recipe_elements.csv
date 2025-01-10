@@ -1,0 +1,11 @@
+element,display_name,tag,data_type
+Recipe_element_1,Pigment Concentration (%),Recipe_Pigment Concentration,Real
+Recipe_element_2,Resin Ratio (%),Recipe_Resin Type and Ratio,Real
+Recipe_element_3,Solvent Composition (mL),Recipe_Solvent Composition,Real
+Recipe_element_4,Additive Ratios (%),Recipe_Additive Ratios,Real
+Recipe_element_5,Drying Agent Ratio (%),Recipe_Drying Agent Ratio,Real
+Recipe_element_6,Viscosity Target (cP),Recipe_Viscosity Target,Real
+Recipe_element_7,Gloss Level (GU),Recipe_Gloss Level,Real
+Recipe_element_8,pH Control Range,Recipe_pH Control Range,Real
+Recipe_element_9,Mixing Time (sec),Recipe_Mixing Time,Real
+Recipe_element_10,Curing Agent Proportion (g),Recipe_Curing Agent Proportion,Real
