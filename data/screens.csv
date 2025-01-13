@@ -1,0 +1,25 @@
+screen,kind,number,template,objects,type_bar,type_button,type_circle,type_date_time_field,type_graphic_i_o_field,type_graphic_view,type_group,type_i_o_field,type_polygon,type_recipe_view,type_rectangle,type_text_field,type_user_view,anim_visibility,anim_appearance,anim_tag_connection,anim_event,functions,tags_used
+Alarm,screen,7,PaintMix,53,0,2,0,0,0,0,0,0,0,0,24,27,0,0,5,0,2,2,6
+Company_Details,screen,8,,24,0,8,0,2,0,6,0,1,0,0,1,6,0,0,0,0,3,5,1
+Input_Status,screen,3,Inputs_temp,43,0,0,20,0,0,0,0,0,0,0,2,21,0,0,20,0,0,0,19
+MainOverview,screen,1,PaintMix,209,6,8,3,0,4,144,5,6,4,0,14,15,0,130,11,16,8,8,28
+Output_Status,screen,4,Outputs_temp,43,0,0,20,0,0,0,0,0,0,0,2,21,0,0,19,0,0,0,19
+Parameter,screen,2,PaintMix,73,0,0,0,0,0,0,0,28,0,0,8,37,0,0,0,28,0,0,16
+Recipe,screen,5,PaintMix,2,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1
+User_Admin,screen,6,PaintMix,4,0,2,0,0,0,0,0,0,0,0,0,1,1,0,0,0,2,2,0
+Inputs_temp,template,,,24,0,13,0,2,0,5,0,1,0,0,1,2,0,2,1,1,10,10,4
+Outputs_temp,template,,,24,0,13,0,2,0,5,0,1,0,0,1,2,0,2,1,1,10,10,4
+PaintMix,template,,,24,0,13,0,2,0,5,0,1,0,0,1,2,0,2,1,1,10,10,4
+BatchDetails,pop-up,,,22,0,3,0,0,0,0,0,6,0,0,4,9,0,0,2,6,3,5,7
+Binder_Valve_popup,pop-up,,,6,0,3,0,0,0,0,0,0,0,0,1,2,0,0,2,0,3,5,2
+Blue_Valve_popup,pop-up,,,6,0,3,0,0,0,0,0,0,0,0,1,2,0,0,2,0,3,5,2
+Green_Valve_popup,pop-up,,,6,0,3,0,0,0,0,0,0,0,0,1,2,0,0,2,0,3,5,2
+MainTank_Valve_popup,pop-up,,,6,0,3,0,0,0,0,0,0,0,0,1,2,0,0,2,0,3,5,2
+Red_Valve_popup,pop-up,,,6,0,3,0,0,0,0,0,0,0,0,1,2,0,0,2,0,3,5,2
+Resin_Valve_popup,pop-up,,,6,0,3,0,0,0,0,0,0,0,0,1,2,0,0,2,0,3,5,2
+Slide-in screen bottom,slide-in,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Slide-in screen left,slide-in,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Slide-in screen right,slide-in,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Slide-in screen top,slide-in,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Global screen,global,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Permanent area,global,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
