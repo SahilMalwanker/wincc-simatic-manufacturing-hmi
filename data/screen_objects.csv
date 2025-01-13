@@ -1,0 +1,582 @@
+screen,object,type,x,y,animations,functions,text
+Alarm,Template_Text field_2,Text field,353,41,,,Alarm Status
+Alarm,Template_Text field_9,Text field,226,95,,,Operational Warnings
+Alarm,Button_8,Button,662,210,,,Alarm Acknowledge
+Alarm,Button_1,Button,662,278,Event;Event,SetBit;ResetBit,Alarm Reset
+Alarm,Rectangle_7,Rectangle,7,180,,,
+Alarm,Text field_7,Text field,6,185,,,Fill Sequence Incomplete
+Alarm,Rectangle_8,Rectangle,114,180,Appearance,,
+Alarm,Text field_8,Text field,117,185,,,Operator Override On
+Alarm,Rectangle_9,Rectangle,221,180,,,
+Alarm,Text field_9,Text field,228,185,,,High Paint Level
+Alarm,Rectangle_10,Rectangle,328,180,,,
+Alarm,Text field_10,Text field,340,185,,,Operator Inactivity
+Alarm,Rectangle_11,Rectangle,435,180,,,
+Alarm,Text field_11,Text field,431,185,,,Flow Rate Inconsistency
+Alarm,Rectangle_12,Rectangle,542,180,,,
+Alarm,Text field_12,Text field,551,185,,,Agitator Overspeed
+Alarm,Template_Text field_1,Text field,237,267,,,Operational Alarms
+Alarm,Rectangle_19,Rectangle,7,353,,,
+Alarm,Text field_18,Text field,11,358,,,Filling Nozzle Leak
+Alarm,Rectangle_20,Rectangle,114,353,,,
+Alarm,Text field_19,Text field,118,358,,,Emergency Stop Active
+Alarm,Rectangle_21,Rectangle,221,353,Appearance,,
+Alarm,Text field_20,Text field,213,358,,,High Viscosity Detected
+Alarm,Rectangle_22,Rectangle,328,353,,,
+Alarm,Text field_21,Text field,328,358,,,Mixing Tank Temperature
+Alarm,Rectangle_23,Rectangle,435,353,,,
+Alarm,Text field_22,Text field,440,358,,,PLC Comm. Loss
+Alarm,Rectangle_24,Rectangle,542,353,,,
+Alarm,Text field_23,Text field,539,355,,,Safety Interlock OFF
+Alarm,Text field_24,Text field,532,308,,,Agitator Motor Failure
+Alarm,Rectangle_13,Rectangle,7,303,,,
+Alarm,Text field_13,Text field,30,308,,,Tank Overfill
+Alarm,Rectangle_14,Rectangle,114,303,,,
+Alarm,Text field_14,Text field,112,308,,,Tank Overpressure
+Alarm,Rectangle_15,Rectangle,221,303,,,
+Alarm,Text field_15,Text field,224,308,,,Motor Overcurrent
+Alarm,Rectangle_16,Rectangle,328,303,,,
+Alarm,Text field_16,Text field,352,308,,,Valve Failure
+Alarm,Rectangle_17,Rectangle,435,303,Appearance,,
+Alarm,Text field_17,Text field,450,308,,,Pump Overload
+Alarm,Rectangle_18,Rectangle,542,303,,,
+Alarm,Rectangle_3,Rectangle,7,130,,,
+Alarm,Text field_1,Text field,16,135,,,Main Tank Low Level
+Alarm,Rectangle_1,Rectangle,114,130,Appearance,,
+Alarm,Text field_2,Text field,113,135,,,Filter Maintenance
+Alarm,Rectangle_2,Rectangle,221,130,,,
+Alarm,Text field_3,Text field,222,135,,,Agitator Maintenance
+Alarm,Rectangle_4,Rectangle,328,130,,,
+Alarm,Text field_4,Text field,320,135,,,Power Backup Activated
+Alarm,Rectangle_5,Rectangle,435,130,,,
+Alarm,Text field_5,Text field,439,135,,,Slow Filling Rate
+Alarm,Rectangle_6,Rectangle,542,130,Appearance,,
+Alarm,Text field_6,Text field,550,135,,,Nozzle Calibration
+Company_Details,Template_Button_7,Button,0,1,,,
+Company_Details,Template_Button_10,Button,714,1,,,
+Company_Details,Template_Button_11,Button,3,1,,,
+Company_Details,Template_Graphic view_1,Graphic view,9,5,,,
+Company_Details,Template_Button_12,Button,88,5,,,
+Company_Details,Template_Date/time field_1,Date/time field,87,37,,,
+Company_Details,Template_Button_13,Button,196,41,,,
+Company_Details,Template_Text field_2,Text field,264,6,,,Paint Manufacturing Station
+Company_Details,Template_Text field_1,Text field,716,56,,,User Level
+Company_Details,Template_I/O field_1,I/O field,717,33,,,
+Company_Details,Template_Graphic view_3,Graphic view,734,0,,,
+Company_Details,Template_Text field_5,Text field,218,88,,,Coloring the World with Excellence
+Company_Details,Template_Text field_6,Text field,301,41,,,Company Details
+Company_Details,Graphic view_1,Graphic view,425,431,,,
+Company_Details,Graphic view_3,Graphic view,315,431,,,
+Company_Details,Rectangle_3,Rectangle,272,391,,,
+Company_Details,Template_Text field_4,Text field,304,391,,,Language Selection
+Company_Details,Button_1,Button,310,425,Event,SetLanguage;ResetBit,
+Company_Details,Button_2,Button,420,426,Event,SetLanguage;SetBit,
+Company_Details,Template_Graphic view_2,Graphic view,441,137,,,
+Company_Details,Template_Text field_3,Text field,2,122,,,"Atinnovativepaint solutions, delivering high-quality products for industries and households. With our commitment to sustainability, our production ensures vibrant colors and durable formulations. Discover our pursuit of perfection and bring life to every surface."
+Company_Details,Template_Date/time field_2,Date/time field,623,38,,,
+Company_Details,Graphic view_2,Graphic view,719,413,,,
+Company_Details,Button_3,Button,720,418,Event,ActivateScreen,
+Input_Status,Template_Text field_2,Text field,300,41,,,Digital Inputs Status
+Input_Status,Rectangle_4,Rectangle,25,93,,,
+Input_Status,Text field_1,Text field,65,101,,,I0.0 - Resin Enhancer Level Sensor Low
+Input_Status,Circle_2,Circle,33,100,Appearance,,
+Input_Status,Text field_2,Text field,65,133,,,I0.1 - Resin Enhancer Level Sensor High
+Input_Status,Circle_1,Circle,33,132,Appearance,,
+Input_Status,Text field_3,Text field,65,165,,,I0.2 - Resin Enhancer Overflow Sensor
+Input_Status,Circle_3,Circle,33,164,Appearance,,
+Input_Status,Text field_4,Text field,65,197,,,I0.3 - Solvent Binder Level Sensor Low
+Input_Status,Circle_4,Circle,33,196,Appearance,,
+Input_Status,Text field_5,Text field,65,229,,,I0.4 - Solvent Binder Level Sensor High
+Input_Status,Circle_5,Circle,33,228,Appearance,,
+Input_Status,Text field_6,Text field,65,261,,,I0.5 - Solvent Binder Overflow Sensor
+Input_Status,Circle_6,Circle,33,260,Appearance,,
+Input_Status,Text field_7,Text field,65,293,,,I0.6 - Red Pigment Level Sensor Low
+Input_Status,Circle_7,Circle,33,292,Appearance,,
+Input_Status,Text field_8,Text field,65,325,,,I0.7 - Red Pigment Level Sensor High
+Input_Status,Circle_8,Circle,33,324,Appearance,,
+Input_Status,Text field_9,Text field,65,357,,,I1.0 - Red Pigment Valve Open
+Input_Status,Circle_9,Circle,33,356,Appearance,,
+Input_Status,Text field_10,Text field,65,389,,,I1.1 - Green Pigment Level Sensor Low
+Input_Status,Circle_10,Circle,33,388,Appearance,,
+Input_Status,Rectangle_1,Rectangle,420,93,,,
+Input_Status,Circle_11,Circle,428,100,Appearance,,
+Input_Status,Text field_12,Text field,460,133,,,I1.3 - Green Pigment Valve Open
+Input_Status,Circle_12,Circle,428,132,Appearance,,
+Input_Status,Text field_13,Text field,460,165,,,I1.4 - Blue Pigment Level Sensor Low
+Input_Status,Circle_13,Circle,428,164,Appearance,,
+Input_Status,Text field_14,Text field,460,197,,,I1.5 - Blue Pigment Level Sensor High
+Input_Status,Circle_14,Circle,428,196,Appearance,,
+Input_Status,Text field_15,Text field,460,229,,,I1.6 - Blue Pigment Valve Open
+Input_Status,Circle_15,Circle,428,228,Appearance,,
+Input_Status,Text field_16,Text field,460,261,,,I1.7 - Agitator Running ON
+Input_Status,Circle_16,Circle,428,260,Appearance,,
+Input_Status,Text field_17,Text field,460,293,,,I2.0 - Master High-Pressure Sensor
+Input_Status,Circle_17,Circle,428,292,Appearance,,
+Input_Status,Text field_18,Text field,460,325,,,I2.1 - Master High-Temperature Sensor
+Input_Status,Circle_18,Circle,428,324,Appearance,,
+Input_Status,Text field_19,Text field,460,357,,,I2.2 - Master High-Temperature Sensor
+Input_Status,Circle_19,Circle,428,356,Appearance,,
+Input_Status,Text field_20,Text field,460,389,,,I2.3 - Mixing Tank Lid Open Sensor
+Input_Status,Circle_20,Circle,428,388,Appearance,,
+Input_Status,Text field_11,Text field,460,101,,,I1.2 - Green Pigment Level Sensor High
+MainOverview,Template_Text field_2,Text field,341,43,,,Main Overview
+MainOverview,Graphic view_7,Graphic view,268,314,,,
+MainOverview,Bar_1,Bar,388,93,Tag connection,,
+MainOverview,Graphic view_2,Graphic view,586,166,,,
+MainOverview,Graphic view_1,Graphic view,151,200,,,
+MainOverview,Graphic view_9,Graphic view,15,103,,,
+MainOverview,Graphic view_10,Graphic view,206,80,,,
+MainOverview,Graphic view_6,Graphic view,307,80,,,
+MainOverview,Graphic view_12,Graphic view,411,80,,,
+MainOverview,Graphic view_11,Graphic view,15,279,,,
+MainOverview,Graphic view_13,Graphic view,351,206,,,
+MainOverview,Graphic view_14,Graphic view,95,385,,,
+MainOverview,Graphic view_15,Graphic view,453,206,,,
+MainOverview,Graphic view_16,Graphic view,249,206,,,
+MainOverview,Graphic view_17,Graphic view,95,209,,,
+MainOverview,Graphic view_19,Graphic view,121,233,Appearance,,
+MainOverview,Graphic view_20,Graphic view,151,377,,,
+MainOverview,Rectangle_2,Rectangle,102,387,Appearance,,
+MainOverview,Graphic view_45,Graphic view,485,272,,,
+MainOverview,Bar_2,Bar,285,93,Tag connection,,
+MainOverview,Bar_3,Bar,490,93,Tag connection,,
+MainOverview,Bar_4,Bar,45,130,Tag connection,,
+MainOverview,Bar_5,Bar,44,304,Tag connection,,
+MainOverview,Graphic view_68,Graphic view,373,275,,,
+MainOverview,Graphic view_69,Graphic view,573,93,,,
+MainOverview,Graphic I/O field_1,Graphic I/O field,649,196,Tag connection,,
+MainOverview,Bar_6,Bar,622,200,Tag connection,,
+MainOverview,Circle_1,Circle,498,277,,,
+MainOverview,Graphic view_73,Graphic view,485,310,,,
+MainOverview,Circle_2,Circle,498,315,,,
+MainOverview,Graphic view_42,Graphic view,485,348,,,
+MainOverview,Circle_3,Circle,498,353,,,
+MainOverview,Graphic I/O field_2,Graphic I/O field,499,278,Tag connection,,
+MainOverview,Graphic I/O field_3,Graphic I/O field,499,316,Tag connection,,
+MainOverview,Graphic I/O field_4,Graphic I/O field,499,354,Tag connection,,
+MainOverview,Graphic view_70,Graphic view,655,139,,,
+MainOverview,Group,Group,170,142,,,
+MainOverview,Graphic view_43,Graphic view,122,409,Appearance,,
+MainOverview,Group_1,Group,187,155,,,
+MainOverview,Rectangle_3,Rectangle,212,93,,,
+MainOverview,Template_I/O field_1,I/O field,218,109,Tag connection,,
+MainOverview,Template_Text field_1,Text field,206,94,,,Temperature
+MainOverview,Template_I/O field_2,I/O field,218,142,Tag connection,,
+MainOverview,Template_Text field_3,Text field,218,128,,,Pressure
+MainOverview,Graphic view_71,Graphic view,194,249,Visibility,,
+MainOverview,Graphic view_79,Graphic view,122,232,Visibility,,
+MainOverview,Graphic view_80,Graphic view,210,393,Visibility,,
+MainOverview,Graphic view_81,Graphic view,194,276,Visibility,,
+MainOverview,Graphic view_82,Graphic view,194,303,Visibility,,
+MainOverview,Graphic view_83,Graphic view,194,330,Visibility,,
+MainOverview,Graphic view_84,Graphic view,194,357,Visibility,,
+MainOverview,Graphic view_78,Graphic view,238,393,Visibility,,
+MainOverview,Graphic view_85,Graphic view,266,393,Visibility,,
+MainOverview,Graphic view_86,Graphic view,294,393,Visibility,,
+MainOverview,Graphic view_87,Graphic view,322,393,Visibility,,
+MainOverview,Graphic view_88,Graphic view,350,393,Visibility,,
+MainOverview,Graphic view_89,Graphic view,378,393,Visibility,,
+MainOverview,Graphic view_90,Graphic view,406,393,Visibility,,
+MainOverview,Graphic view_91,Graphic view,434,393,Visibility,,
+MainOverview,Graphic view_92,Graphic view,462,393,Visibility,,
+MainOverview,Graphic view_93,Graphic view,490,393,Visibility,,
+MainOverview,Graphic view_94,Graphic view,518,393,Visibility,,
+MainOverview,Graphic view_95,Graphic view,546,393,Visibility,,
+MainOverview,Graphic view_96,Graphic view,574,393,Visibility,,
+MainOverview,Graphic view_97,Graphic view,602,393,Visibility,,
+MainOverview,Graphic view_98,Graphic view,630,393,Visibility,,
+MainOverview,Graphic view_99,Graphic view,658,393,Visibility,,
+MainOverview,Graphic view_100,Graphic view,686,393,Visibility,,
+MainOverview,Graphic view_101,Graphic view,714,393,Visibility,,
+MainOverview,Graphic view_102,Graphic view,748,248,Visibility,,
+MainOverview,Graphic view_103,Graphic view,748,275,Visibility,,
+MainOverview,Graphic view_104,Graphic view,748,302,Visibility,,
+MainOverview,Graphic view_105,Graphic view,748,329,Visibility,,
+MainOverview,Graphic view_106,Graphic view,748,356,Visibility,,
+MainOverview,Graphic view_107,Graphic view,748,166,Visibility,,
+MainOverview,Graphic view_108,Graphic view,748,194,Visibility,,
+MainOverview,Graphic view_109,Graphic view,748,221,Visibility,,
+MainOverview,Graphic view_110,Graphic view,725,166,Visibility,,
+MainOverview,Graphic view_111,Graphic view,187,408,Visibility,,
+MainOverview,Graphic view_112,Graphic view,215,408,Visibility,,
+MainOverview,Graphic view_113,Graphic view,243,408,Visibility,,
+MainOverview,Graphic view_114,Graphic view,271,408,Visibility,,
+MainOverview,Graphic view_115,Graphic view,299,408,Visibility,,
+MainOverview,Graphic view_116,Graphic view,327,408,Visibility,,
+MainOverview,Graphic view_117,Graphic view,355,408,Visibility,,
+MainOverview,Graphic view_118,Graphic view,383,408,Visibility,,
+MainOverview,Graphic view_119,Graphic view,411,408,Visibility,,
+MainOverview,Graphic view_120,Graphic view,439,408,Visibility,,
+MainOverview,Graphic view_121,Graphic view,467,408,Visibility,,
+MainOverview,Graphic view_122,Graphic view,495,408,Visibility,,
+MainOverview,Graphic view_123,Graphic view,523,408,Visibility,,
+MainOverview,Graphic view_124,Graphic view,551,408,Visibility,,
+MainOverview,Graphic view_125,Graphic view,579,408,Visibility,,
+MainOverview,Graphic view_126,Graphic view,607,408,Visibility,,
+MainOverview,Graphic view_127,Graphic view,635,408,Visibility,,
+MainOverview,Graphic view_128,Graphic view,663,408,Visibility,,
+MainOverview,Graphic view_129,Graphic view,691,408,Visibility,,
+MainOverview,Graphic view_130,Graphic view,123,408,Visibility,,
+MainOverview,Graphic view_132,Graphic view,762,239,Visibility,,
+MainOverview,Graphic view_133,Graphic view,762,266,Visibility,,
+MainOverview,Graphic view_134,Graphic view,762,293,Visibility,,
+MainOverview,Graphic view_135,Graphic view,762,320,Visibility,,
+MainOverview,Graphic view_136,Graphic view,762,347,Visibility,,
+MainOverview,Graphic view_137,Graphic view,762,157,Visibility,,
+MainOverview,Graphic view_138,Graphic view,762,185,Visibility,,
+MainOverview,Graphic view_139,Graphic view,762,212,Visibility,,
+MainOverview,Graphic view_140,Graphic view,762,378,Visibility,,
+MainOverview,Graphic view_141,Graphic view,720,408,Visibility,,
+MainOverview,Graphic view_144,Graphic view,729,141,Visibility,,
+MainOverview,Graphic view_145,Graphic view,713,156,Visibility,,
+MainOverview,Graphic view_153,Graphic view,300,351,Visibility,,
+MainOverview,Graphic view_154,Graphic view,317,351,Visibility,,
+MainOverview,Graphic view_155,Graphic view,345,351,Visibility,,
+MainOverview,Graphic view_156,Graphic view,373,351,Visibility,,
+MainOverview,Graphic view_157,Graphic view,401,351,Visibility,,
+MainOverview,Graphic view_158,Graphic view,429,351,Visibility,,
+MainOverview,Graphic view_159,Graphic view,457,351,Visibility,,
+MainOverview,Graphic view_152,Graphic view,572,243,Visibility,,
+MainOverview,Graphic view_160,Graphic view,572,270,Visibility,,
+MainOverview,Graphic view_161,Graphic view,572,297,Visibility,,
+MainOverview,Graphic view_162,Graphic view,572,324,Visibility,,
+MainOverview,Graphic view_164,Graphic view,572,167,Visibility,,
+MainOverview,Graphic view_165,Graphic view,572,185,Visibility,,
+MainOverview,Graphic view_166,Graphic view,572,212,Visibility,,
+MainOverview,Graphic view_163,Graphic view,595,165,Visibility,,
+MainOverview,Group_2,Group,253,155,,,
+MainOverview,Graphic view_147,Graphic view,252,314,Visibility,,
+MainOverview,Graphic view_167,Graphic view,252,237,Visibility,,
+MainOverview,Graphic view_168,Graphic view,252,256,Visibility,,
+MainOverview,Graphic view_169,Graphic view,252,283,Visibility,,
+MainOverview,Graphic view_148,Graphic view,536,361,Visibility,,
+MainOverview,Group_3,Group,355,142,,,
+MainOverview,Group_4,Group,457,127,,,
+MainOverview,Graphic view_150,Graphic view,354,237,Visibility,,
+MainOverview,Graphic view_151,Graphic view,354,256,Visibility,,
+MainOverview,Graphic view_170,Graphic view,354,283,Visibility,,
+MainOverview,Graphic view_149,Graphic view,558,249,Visibility,,
+MainOverview,Graphic view_171,Graphic view,558,268,Visibility,,
+MainOverview,Graphic view_172,Graphic view,558,295,Visibility,,
+MainOverview,Graphic view_173,Graphic view,558,182,Visibility,,
+MainOverview,Graphic view_174,Graphic view,558,201,Visibility,,
+MainOverview,Graphic view_175,Graphic view,558,228,Visibility,,
+MainOverview,Graphic view_177,Graphic view,558,156,Visibility,,
+MainOverview,Graphic view_178,Graphic view,558,169,Visibility,,
+MainOverview,Graphic view_176,Graphic view,606,155,Visibility,,
+MainOverview,Graphic view_179,Graphic view,404,312,Visibility,,
+MainOverview,Graphic view_180,Graphic view,428,312,Visibility,,
+MainOverview,Graphic view_181,Graphic view,456,312,Visibility,,
+MainOverview,Graphic view_182,Graphic view,575,141,Visibility,,
+MainOverview,Graphic view_185,Graphic view,542,210,Visibility,,
+MainOverview,Graphic view_186,Graphic view,542,229,Visibility,,
+MainOverview,Graphic view_187,Graphic view,542,256,Visibility,,
+MainOverview,Graphic view_188,Graphic view,542,143,Visibility,,
+MainOverview,Graphic view_189,Graphic view,542,162,Visibility,,
+MainOverview,Graphic view_190,Graphic view,542,189,Visibility,,
+MainOverview,Graphic view_191,Graphic view,558,126,Visibility,,
+MainOverview,Graphic view_192,Graphic view,602,126,Visibility,,
+MainOverview,Graphic view_74,Graphic view,456,236,Visibility,,
+MainOverview,Graphic view_75,Graphic view,456,254,Visibility,,
+MainOverview,Graphic view_76,Graphic view,620,140,Visibility,,
+MainOverview,Graphic view_77,Graphic view,620,159,Visibility,,
+MainOverview,Graphic view_131,Graphic view,535,324,Visibility,,
+MainOverview,Graphic view_142,Graphic view,471,274,Visibility,,
+MainOverview,Template_Text field_9,Text field,4,79,,,Resin Enhancer Tank
+MainOverview,Template_Text field_10,Text field,210,169,,,RED Pigment Tank
+MainOverview,Polygon_1,Polygon,216,170,,,
+MainOverview,Polygon_2,Polygon,314,170,,,
+MainOverview,Template_Text field_11,Text field,308,169,,,GREEN Pigment Tank
+MainOverview,Polygon_3,Polygon,420,170,,,
+MainOverview,Template_Text field_12,Text field,412,169,,,BLUE Pigment Tank
+MainOverview,Rectangle_6,Rectangle,162,374,Appearance,,
+MainOverview,Rectangle_7,Rectangle,102,211,Appearance,,
+MainOverview,Rectangle_8,Rectangle,162,197,Appearance,,
+MainOverview,Polygon_4,Polygon,625,175,,,
+MainOverview,Template_Text field_13,Text field,615,176,,,Mixing Tank
+MainOverview,Rectangle_1,Rectangle,657,143,Appearance,,
+MainOverview,Rectangle_9,Rectangle,282,217,Appearance,,
+MainOverview,Rectangle_10,Rectangle,384,217,Appearance,,
+MainOverview,Rectangle_11,Rectangle,486,217,Appearance,,
+MainOverview,Graphic view_3,Graphic view,123,208,Visibility,,
+MainOverview,Graphic view_4,Graphic view,123,383,Visibility,,
+MainOverview,Graphic view_5,Graphic view,296,225,Visibility,,
+MainOverview,Graphic view_8,Graphic view,398,225,Visibility,,
+MainOverview,Graphic view_18,Graphic view,500,225,Visibility,,
+MainOverview,Graphic view_21,Graphic view,681,143,Visibility,,
+MainOverview,Button_1,Button,102,209,Event;Visibility,ShowPopupScreen,
+MainOverview,Button_2,Button,102,385,Event;Visibility,ShowPopupScreen,
+MainOverview,Button_3,Button,270,217,Event;Visibility,ShowPopupScreen,
+MainOverview,Button_4,Button,371,217,Event;Visibility,ShowPopupScreen,
+MainOverview,Button_5,Button,472,217,Event;Visibility,ShowPopupScreen,
+MainOverview,Button_6,Button,653,137,Event;Visibility,ShowPopupScreen,
+MainOverview,Rectangle_4,Rectangle,313,93,,,
+MainOverview,Template_I/O field_3,I/O field,319,109,Tag connection,,
+MainOverview,Template_Text field_4,Text field,307,94,,,Temperature
+MainOverview,Template_I/O field_4,I/O field,319,142,Tag connection,,
+MainOverview,Template_Text field_5,Text field,319,128,,,Pressure
+MainOverview,Rectangle_5,Rectangle,417,93,,,
+MainOverview,Template_I/O field_5,I/O field,423,109,Tag connection,,
+MainOverview,Template_Text field_6,Text field,411,94,,,Temperature
+MainOverview,Template_I/O field_6,I/O field,423,142,Tag connection,,
+MainOverview,Template_Text field_7,Text field,423,128,,,Pressure
+MainOverview,Rectangle_12,Rectangle,14,82,,,
+MainOverview,Rectangle_14,Rectangle,14,256,,,
+MainOverview,Template_Text field_17,Text field,4,253,,,Solvent Binder Tank
+MainOverview,Button_7,Button,696,84,Event,ShowPopupScreen,
+MainOverview,Button_8,Button,702,84,Event,ShowPopupScreen,Control Panel
+MainOverview,Template_Text field_8,Text field,716,100,Visibility,,MANUAL
+MainOverview,Rectangle_13,Rectangle,702,84,Appearance,,
+MainOverview,Template_Text field_14,Text field,716,100,Visibility,,AUTO
+Output_Status,Template_Text field_2,Text field,300,41,,,Digital Output Status
+Output_Status,Rectangle_4,Rectangle,25,93,,,
+Output_Status,Text field_1,Text field,65,101,,,Q0.0 - Resin Enhancer Pump Motor ON
+Output_Status,Circle_2,Circle,33,100,Appearance,,
+Output_Status,Text field_2,Text field,65,133,,,Q0.1 - Resin Enhancer Inlet Valve Open
+Output_Status,Circle_1,Circle,33,132,Appearance,,
+Output_Status,Text field_3,Text field,65,165,,,Q0.2 - Solvent Binder Pump Motor ON
+Output_Status,Circle_3,Circle,33,164,Appearance,,
+Output_Status,Text field_4,Text field,65,197,,,Q0.3 - Solvent Binder Inlet Valve Open
+Output_Status,Circle_4,Circle,33,196,Appearance,,
+Output_Status,Text field_5,Text field,65,229,,,Q0.4 - Pigment Circulation Valve ON
+Output_Status,Circle_5,Circle,33,228,Appearance,,
+Output_Status,Text field_6,Text field,65,261,,,Q0.5 - Red Pigment Pump Motor ON
+Output_Status,Circle_6,Circle,33,260,Appearance,,
+Output_Status,Text field_7,Text field,65,293,,,Q0.6 - Green Pigment Pump Motor ON
+Output_Status,Circle_7,Circle,33,292,Appearance,,
+Output_Status,Text field_8,Text field,65,325,,,Q0.7 - Blue Pigment Pump Motor ON
+Output_Status,Circle_8,Circle,33,324,Appearance,,
+Output_Status,Text field_9,Text field,65,357,,,Q1.0 - Pigment Inlet Valve Open
+Output_Status,Circle_9,Circle,33,356,Appearance,,
+Output_Status,Text field_10,Text field,65,389,,,Q1.1 - Agitator Motor ON
+Output_Status,Circle_10,Circle,33,388,Appearance,,
+Output_Status,Rectangle_1,Rectangle,420,93,,,
+Output_Status,Circle_11,Circle,428,100,Appearance,,
+Output_Status,Text field_12,Text field,460,133,,,Q1.3 - Mixing Tank Outlet Valve ON
+Output_Status,Circle_12,Circle,428,132,Appearance,,
+Output_Status,Text field_13,Text field,460,165,,,Q1.4 - Alarm Indicator Light ON
+Output_Status,Circle_13,Circle,428,164,Appearance,,
+Output_Status,Text field_14,Text field,460,197,,,Q1.5 - Emergency Stop Output
+Output_Status,Circle_14,Circle,428,196,Appearance,,
+Output_Status,Text field_15,Text field,460,229,,,Q1.6 - HMI Alarm Buzzer ON
+Output_Status,Circle_15,Circle,428,228,Appearance,,
+Output_Status,Text field_16,Text field,460,261,,,Q1.7 - Safety Interlock Engaged ON
+Output_Status,Circle_16,Circle,428,260,,,
+Output_Status,Text field_17,Text field,460,293,,,Q2.0 - Maintenance Lockout ON
+Output_Status,Circle_17,Circle,428,292,Appearance,,
+Output_Status,Text field_18,Text field,460,325,,,Q2.1 - Batch Complete Indicator
+Output_Status,Circle_18,Circle,428,324,Appearance,,
+Output_Status,Text field_19,Text field,460,357,,,Q2.2 - Backup Power Actuator ON
+Output_Status,Circle_19,Circle,428,356,Appearance,,
+Output_Status,Text field_20,Text field,460,389,,,Q2.3 - Outlet Exhaust Fan ON
+Output_Status,Circle_20,Circle,428,388,Appearance,,
+Output_Status,Text field_11,Text field,460,101,,,Q1.2 - Mixing Tank Drain Valve ON
+Parameter,Template_Text field_2,Text field,353,41,,,Parameters
+Parameter,Template_Text field_9,Text field,6,85,,,Resin Enhancer
+Parameter,Rectangle_3,Rectangle,9,109,,,
+Parameter,Template_I/O field_1,I/O field,39,152,Tag connection,,
+Parameter,Template_Text field_1,Text field,13,111,,,Output Flow Rate
+Parameter,Rectangle_2,Rectangle,15,132,,,
+Parameter,Template_Text field_3,Text field,54,134,,,Actual
+Parameter,Template_Text field_4,Text field,46,178,,,Setpoint
+Parameter,Template_I/O field_2,I/O field,44,196,Tag connection,,
+Parameter,Template_Text field_5,Text field,4,228,,,Defoaming Setpoint
+Parameter,Template_I/O field_3,I/O field,43,248,Tag connection,,
+Parameter,Rectangle_4,Rectangle,160,110,,,
+Parameter,Rectangle_8,Rectangle,166,133,,,
+Parameter,Template_Text field_6,Text field,164,112,,,Output Flow Rate
+Parameter,Template_I/O field_4,I/O field,190,153,Tag connection,,
+Parameter,Template_Text field_7,Text field,205,135,,,Actual
+Parameter,Template_Text field_8,Text field,197,179,,,Setpoint
+Parameter,Template_I/O field_5,I/O field,190,197,Tag connection,,
+Parameter,Template_Text field_10,Text field,156,229,,,Gloss Ratio Setpoint
+Parameter,Template_I/O field_6,I/O field,194,249,Tag connection,,
+Parameter,Template_Text field_11,Text field,134,85,,,Solvent Binder
+Parameter,Rectangle_1,Rectangle,312,110,,,
+Parameter,Template_Text field_15,Text field,318,85,,,RED Pigment
+Parameter,Template_Text field_12,Text field,331,115,,,Level Setpoint
+Parameter,Template_I/O field_7,I/O field,350,135,Tag connection,,
+Parameter,Template_Text field_13,Text field,319,166,,,Flowrate Setpoint
+Parameter,Template_I/O field_8,I/O field,345,186,Tag connection,,
+Parameter,Template_Text field_14,Text field,318,218,,,Viscosity Setpoint
+Parameter,Template_I/O field_9,I/O field,350,238,Tag connection,,
+Parameter,Template_Text field_16,Text field,305,320,,,Temperature Setpoint
+Parameter,Template_I/O field_10,I/O field,350,339,Tag connection,,
+Parameter,Template_Text field_17,Text field,319,370,,,Pressure Setpoint
+Parameter,Template_I/O field_11,I/O field,350,390,Tag connection,,
+Parameter,Template_Text field_18,Text field,323,270,,,Density Setpoint
+Parameter,Template_I/O field_12,I/O field,341,290,Tag connection,,
+Parameter,Rectangle_5,Rectangle,475,110,,,
+Parameter,Template_Text field_19,Text field,475,85,,,GREEN Pigment
+Parameter,Template_Text field_20,Text field,494,115,,,Level Setpoint
+Parameter,Template_I/O field_13,I/O field,513,135,Tag connection,,
+Parameter,Template_Text field_21,Text field,482,166,,,Flowrate Setpoint
+Parameter,Template_I/O field_14,I/O field,508,186,Tag connection,,
+Parameter,Template_Text field_22,Text field,481,218,,,Viscosity Setpoint
+Parameter,Template_I/O field_15,I/O field,513,238,Tag connection,,
+Parameter,Template_Text field_23,Text field,468,320,,,Temperature Setpoint
+Parameter,Template_I/O field_16,I/O field,513,339,Tag connection,,
+Parameter,Template_Text field_24,Text field,482,370,,,Pressure Setpoint
+Parameter,Template_I/O field_17,I/O field,513,390,Tag connection,,
+Parameter,Template_Text field_25,Text field,486,270,,,Density Setpoint
+Parameter,Template_I/O field_18,I/O field,504,290,Tag connection,,
+Parameter,Rectangle_6,Rectangle,639,110,,,
+Parameter,Template_Text field_26,Text field,641,85,,,BLUE Pigment
+Parameter,Template_Text field_27,Text field,658,115,,,Level Setpoint
+Parameter,Template_I/O field_19,I/O field,677,135,Tag connection,,
+Parameter,Template_Text field_28,Text field,646,166,,,Flowrate Setpoint
+Parameter,Template_I/O field_20,I/O field,672,186,Tag connection,,
+Parameter,Template_Text field_29,Text field,645,218,,,Viscosity Setpoint
+Parameter,Template_I/O field_21,I/O field,677,238,Tag connection,,
+Parameter,Template_Text field_30,Text field,632,320,,,Temperature Setpoint
+Parameter,Template_I/O field_22,I/O field,677,339,Tag connection,,
+Parameter,Template_Text field_31,Text field,646,370,,,Pressure Setpoint
+Parameter,Template_I/O field_23,I/O field,677,390,Tag connection,,
+Parameter,Template_Text field_32,Text field,650,270,,,Density Setpoint
+Parameter,Template_I/O field_24,I/O field,668,290,Tag connection,,
+Parameter,Rectangle_7,Rectangle,9,310,,,
+Parameter,Template_Text field_33,Text field,78,285,,,Main Mixer Tank
+Parameter,Template_Text field_34,Text field,7,319,,,Mixing Speed Setpoint
+Parameter,Template_I/O field_25,I/O field,46,339,Tag connection,,
+Parameter,Template_Text field_35,Text field,186,319,,,Current pH
+Parameter,Template_I/O field_26,I/O field,184,339,Tag connection,,
+Parameter,Template_Text field_36,Text field,23,373,,,Viscosity Setpoint
+Parameter,Template_I/O field_27,I/O field,46,393,Tag connection,,
+Parameter,Template_Text field_37,Text field,174,373,,,Level Setpoint
+Parameter,Template_I/O field_28,I/O field,184,393,Tag connection,,
+Recipe,Recipe view_1,Recipe view,5,90,,,
+Recipe,Template_Text field_2,Text field,315,41,,,Recipe Management
+User_Admin,User view_2,User view,17,90,,,
+User_Admin,Template_Button_5,Button,254,353,Event,ShowLogonDialog,Log In
+User_Admin,Template_Button_1,Button,414,353,Event,ShowLogonDialog,Log out
+User_Admin,Template_Text field_2,Text field,316,41,,,User Management
+Inputs_temp,Template_Graphic view_1,Graphic view,9,5,,,
+Inputs_temp,Template_Button_1,Button,0,434,Event,ActivateScreen,Main Overview | Main Overview
+Inputs_temp,Template_Button_2,Button,112,434,Event,ActivateScreen,Parameter | Parameter
+Inputs_temp,Template_Button_3,Button,224,434,Event,ActivateScreen,Recipe Management | Recipe Management
+Inputs_temp,Template_Button_4,Button,336,434,Event,ActivateScreen,User Management | User Management
+Inputs_temp,Template_Button_5,Button,448,434,Appearance;Event,ActivateScreen,Alarm Status | Alarm Status
+Inputs_temp,Rectangle_1,Rectangle,0,431,,,
+Inputs_temp,Template_Button_6,Button,560,434,Event,ActivateScreen,Digital Outputs | Digital Outputs
+Inputs_temp,Template_Graphic view_2,Graphic view,743,427,,,
+Inputs_temp,Template_Button_7,Button,0,1,,,
+Inputs_temp,Template_Button_10,Button,714,1,,,
+Inputs_temp,Template_Button_11,Button,3,1,,,
+Inputs_temp,Template_Date/time field_1,Date/time field,87,37,,,
+Inputs_temp,Template_Date/time field_2,Date/time field,623,38,,,
+Inputs_temp,Template_Button_13,Button,196,41,,,
+Inputs_temp,Template_Graphic view_3,Graphic view,734,0,,,
+Inputs_temp,Template_Text field_1,Text field,716,56,,,User Level
+Inputs_temp,Template_Button_12,Button,88,5,,,
+Inputs_temp,Template_Text field_2,Text field,264,6,,,Paint Manufacturing Station
+Inputs_temp,Button_3,Button,745,424,Event,PrintScreen,
+Inputs_temp,Graphic view_1,Graphic view,659,5,Visibility,,
+Inputs_temp,Graphic view_2,Graphic view,659,5,Visibility,,
+Inputs_temp,Button_7,Button,650,3,Event;Event;Event,SetLanguage;SetBit;ResetBit,
+Inputs_temp,Template_I/O field_1,I/O field,717,33,Tag connection,,
+Outputs_temp,Template_Graphic view_1,Graphic view,9,5,,,
+Outputs_temp,Template_Button_1,Button,0,434,Event,ActivateScreen,Main Overview | Main Overview
+Outputs_temp,Template_Button_2,Button,112,434,Event,ActivateScreen,Parameter | Parameter
+Outputs_temp,Template_Button_3,Button,224,434,Event,ActivateScreen,Recipe Management | Recipe Management
+Outputs_temp,Template_Button_4,Button,336,434,Event,ActivateScreen,User Management | User Management
+Outputs_temp,Template_Button_5,Button,448,434,Appearance;Event,ActivateScreen,Alarm Status | Alarm Status
+Outputs_temp,Rectangle_1,Rectangle,0,431,,,
+Outputs_temp,Template_Button_6,Button,560,434,Event,ActivateScreen,Digital Inputs | Digital Inputs
+Outputs_temp,Template_Graphic view_2,Graphic view,743,427,,,
+Outputs_temp,Template_Button_7,Button,0,1,,,
+Outputs_temp,Template_Button_10,Button,714,1,,,
+Outputs_temp,Template_Button_11,Button,3,1,,,
+Outputs_temp,Template_Date/time field_1,Date/time field,87,37,,,
+Outputs_temp,Template_Date/time field_2,Date/time field,623,38,,,
+Outputs_temp,Template_Button_13,Button,196,41,,,
+Outputs_temp,Template_Graphic view_3,Graphic view,734,0,,,
+Outputs_temp,Template_Text field_1,Text field,716,56,,,User Level
+Outputs_temp,Template_Button_12,Button,88,5,,,
+Outputs_temp,Template_Text field_2,Text field,264,6,,,Paint Manufacturing Station
+Outputs_temp,Button_3,Button,745,424,Event,PrintScreen,
+Outputs_temp,Graphic view_1,Graphic view,659,5,Visibility,,
+Outputs_temp,Graphic view_2,Graphic view,659,5,Visibility,,
+Outputs_temp,Button_7,Button,650,3,Event;Event;Event,SetLanguage;SetBit;ResetBit,
+Outputs_temp,Template_I/O field_1,I/O field,717,33,Tag connection,,
+PaintMix,Template_Graphic view_1,Graphic view,9,5,,,
+PaintMix,Template_Button_1,Button,0,434,Event,ActivateScreen,Main Overview | Main Overview
+PaintMix,Template_Button_2,Button,112,434,Event,ActivateScreen,Parameter | Parameter
+PaintMix,Template_Button_3,Button,224,434,Event,ActivateScreen,Recipe Management | Recipe Management
+PaintMix,Template_Button_4,Button,336,434,Event,ActivateScreen,User Management | User Management
+PaintMix,Template_Button_5,Button,448,434,Appearance;Event,ActivateScreen,Alarm Status | Alarm Status
+PaintMix,Rectangle_1,Rectangle,0,431,,,
+PaintMix,Template_Button_6,Button,560,434,Event,ActivateScreen,I/O Status | I/O Status
+PaintMix,Template_Graphic view_2,Graphic view,743,427,,,
+PaintMix,Template_Button_7,Button,0,1,,,
+PaintMix,Template_Button_10,Button,714,1,,,
+PaintMix,Template_Button_11,Button,3,1,,,
+PaintMix,Template_Button_12,Button,88,5,,,
+PaintMix,Template_Date/time field_1,Date/time field,87,37,,,
+PaintMix,Template_Date/time field_2,Date/time field,623,38,,,
+PaintMix,Template_Button_13,Button,196,41,,,
+PaintMix,Template_I/O field_1,I/O field,717,33,Tag connection,,
+PaintMix,Template_Graphic view_3,Graphic view,734,0,,,
+PaintMix,Template_Text field_1,Text field,716,56,,,User Level
+PaintMix,Template_Text field_2,Text field,264,6,,,Paint Manufacturing Station
+PaintMix,Button_3,Button,745,424,Event,PrintScreen,
+PaintMix,Graphic view_1,Graphic view,659,5,Visibility,,
+PaintMix,Graphic view_2,Graphic view,659,5,Visibility,,
+PaintMix,Button_7,Button,650,3,Event;Event;Event,SetLanguage;SetBit;ResetBit,
+BatchDetails,Button_1,Button,110,303,Appearance;Event,ResetBit;ActivateScreen,MANUAL
+BatchDetails,Button_2,Button,240,303,Appearance;Event,SetBit;ActivateScreen,AUTO
+BatchDetails,Text field_1,Text field,130,9,,,Recipe Details
+BatchDetails,Rectangle_1,Rectangle,1,1,,,
+BatchDetails,Button_3,Button,404,8,Event,ActivateScreen,X
+BatchDetails,Template_I/O field_7,I/O field,108,65,Tag connection,,
+BatchDetails,Rectangle_4,Rectangle,99,39,,,
+BatchDetails,Text field_3,Text field,116,41,,,Recipe ID
+BatchDetails,Template_I/O field_1,I/O field,230,65,Tag connection,,
+BatchDetails,Text field_4,Text field,235,41,,,Recipe Name
+BatchDetails,Rectangle_2,Rectangle,24,135,,,
+BatchDetails,Text field_2,Text field,130,108,,,Batch Details
+BatchDetails,Template_I/O field_2,I/O field,53,164,Tag connection,,
+BatchDetails,Text field_5,Text field,44,142,,,Equipment ID
+BatchDetails,Template_I/O field_3,I/O field,180,164,Tag connection,,
+BatchDetails,Text field_6,Text field,186,142,,,Batch ID
+BatchDetails,Template_I/O field_4,I/O field,302,164,Tag connection,,
+BatchDetails,Text field_7,Text field,307,142,,,Batch Size
+BatchDetails,Template_I/O field_5,I/O field,124,225,Tag connection,,
+BatchDetails,Text field_8,Text field,123,203,,,Batch Start Timestamp
+BatchDetails,Rectangle_3,Rectangle,95,295,,,
+BatchDetails,Text field_9,Text field,121,273,,,Control Mode Selection
+Binder_Valve_popup,Button_1,Button,27,109,Appearance;Event,SetBit;ActivateScreen,ON
+Binder_Valve_popup,Button_2,Button,133,109,Appearance;Event,ResetBit;ActivateScreen,OFF
+Binder_Valve_popup,Rectangle_1,Rectangle,1,4,,,
+Binder_Valve_popup,Button_3,Button,201,12,Event,ActivateScreen,X
+Binder_Valve_popup,Text field_2,Text field,43,72,,,Valve Control
+Binder_Valve_popup,Text field_3,Text field,30,42,,,Solvent Binder Tank
+Blue_Valve_popup,Button_1,Button,27,109,Appearance;Event,SetBit;ActivateScreen,ON
+Blue_Valve_popup,Button_2,Button,133,109,Appearance;Event,ResetBit;ActivateScreen,OFF
+Blue_Valve_popup,Text field_1,Text field,21,42,,,Blue Pigment Tank
+Blue_Valve_popup,Rectangle_1,Rectangle,1,4,,,
+Blue_Valve_popup,Button_3,Button,201,12,Event,ActivateScreen,X
+Blue_Valve_popup,Text field_2,Text field,39,72,,,Valve Control
+Green_Valve_popup,Button_1,Button,27,109,Appearance;Event,SetBit;ActivateScreen,ON
+Green_Valve_popup,Button_2,Button,133,109,Appearance;Event,ResetBit;ActivateScreen,OFF
+Green_Valve_popup,Rectangle_1,Rectangle,1,4,,,
+Green_Valve_popup,Button_3,Button,201,12,Event,ActivateScreen,X
+Green_Valve_popup,Text field_2,Text field,43,72,,,Valve Control
+Green_Valve_popup,Text field_1,Text field,19,42,,,Green Pigment Tank
+MainTank_Valve_popup,Button_1,Button,27,109,Appearance;Event,SetBit;ActivateScreen,ON
+MainTank_Valve_popup,Button_2,Button,133,109,Appearance;Event,ResetBit;ActivateScreen,OFF
+MainTank_Valve_popup,Text field_1,Text field,38,42,,,Main Mixer Tank
+MainTank_Valve_popup,Rectangle_1,Rectangle,1,4,,,
+MainTank_Valve_popup,Button_3,Button,201,12,Event,ActivateScreen,X
+MainTank_Valve_popup,Text field_2,Text field,43,72,,,Valve Control
+Red_Valve_popup,Button_1,Button,27,109,Appearance;Event,SetBit;ActivateScreen,ON
+Red_Valve_popup,Button_2,Button,133,109,Appearance;Event,ResetBit;ActivateScreen,OFF
+Red_Valve_popup,Rectangle_1,Rectangle,1,4,,,
+Red_Valve_popup,Button_3,Button,201,12,Event,ActivateScreen,X
+Red_Valve_popup,Text field_2,Text field,44,72,,,Valve Control
+Red_Valve_popup,Text field_1,Text field,26,42,,,Red Pigment Tank
+Resin_Valve_popup,Button_1,Button,27,109,Appearance;Event,SetBit;ActivateScreen,ON
+Resin_Valve_popup,Button_2,Button,133,109,Appearance;Event,ResetBit;ActivateScreen,OFF
+Resin_Valve_popup,Text field_1,Text field,21,42,,,Resin Enhancer Tank
+Resin_Valve_popup,Rectangle_1,Rectangle,1,4,,,
+Resin_Valve_popup,Button_3,Button,201,12,Event,ActivateScreen,X
+Resin_Valve_popup,Text field_2,Text field,44,72,,,Valve Control
