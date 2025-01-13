@@ -1,0 +1,4 @@
+group,number,authorizations
+Administrator group,1,User administration; Monitor; Operate
+Engineer group,2,Monitor
+Operator group,3,Operate; Monitor

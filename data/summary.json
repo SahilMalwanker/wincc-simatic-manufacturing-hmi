@@ -1,0 +1,78 @@
+{
+  "device": {
+    "name": "HMI_1",
+    "type": "TP700 Comfort",
+    "start_screen": "Input_Status",
+    "resolution": "800, 480",
+    "style": "WinCC Dark V 1.0.1",
+    "runtime_languages": [
+      "English (United States)",
+      "German (Germany)"
+    ]
+  },
+  "connection": {
+    "driver": "SIMATIC S7 1500",
+    "station": "S7-1500/ET200MP-Station_1",
+    "partner": "PLC_1",
+    "node": "CPU 1516-3 PN/DP, PROFINET interface (R0/S1)"
+  },
+  "screens": {
+    "screen": 8,
+    "template": 3,
+    "pop-up": 7,
+    "slide-in": 4,
+    "global": 2
+  },
+  "objects": 581,
+  "object_types": {
+    "Graphic view": 165,
+    "Text field": 156,
+    "Button": 80,
+    "Rectangle": 64,
+    "I/O field": 44,
+    "Circle": 43,
+    "Date/time field": 8,
+    "Bar": 6,
+    "Group": 5,
+    "Graphic I/O field": 4,
+    "Polygon": 4,
+    "Recipe view": 1,
+    "User view": 1
+  },
+  "animations": {
+    "Visibility": 136,
+    "Appearance": 72,
+    "Event": 66,
+    "Tag connection": 53
+  },
+  "system_functions": {
+    "ActivateScreen": 40,
+    "SetBit": 12,
+    "ResetBit": 12,
+    "ShowPopupScreen": 8,
+    "SetLanguage": 5,
+    "PrintScreen": 3,
+    "ShowLogonDialog": 2
+  },
+  "events": {
+    "Click": 58,
+    "Press": 4,
+    "Release": 4
+  },
+  "hmi_tags": 117,
+  "tag_data_types": {
+    "Bool": 62,
+    "Real": 32,
+    "Int": 15,
+    "String": 7,
+    "WString": 1
+  },
+  "recipe_elements": 10,
+  "user_groups": 3,
+  "graphic_lists": {
+    "Agitator": 3,
+    "Pump_Fan_Blue": 4,
+    "Pump_Fan_Green": 4,
+    "Pump_Fan_Red": 4
+  }
+}
