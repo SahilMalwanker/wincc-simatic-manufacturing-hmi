@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-labelledby="t d">
+  <title id="t">Manufacturing Station HMI</title>
+  <desc id="d">Paint manufacturing use case: five ingredient tanks feed a mixing tank with a rotating agitator.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbfb"/>
+      <stop offset="1" stop-color="#e9f3f4"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cfd8de"/>
+      <stop offset="0.45" stop-color="#f5f8fa"/>
+      <stop offset="1" stop-color="#b9c5cd"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="mixClip"><rect x="992" y="212" width="146" height="96" rx="20"/></clipPath>
+    <style>
+      .title { font: 700 44px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #10343a; }
+      .accent { fill: #0f6e78; }
+      .eyebrow { font: 700 13px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 0; fill: #0f6e78; }
+      .lead { font: 400 16px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #4b5b66; }
+      .chip { fill: #ffffff; stroke: #cfe3e5; }
+      .chiptext { font: 600 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #10343a; }
+      .tag { font: 700 10px 'Segoe UI', Helvetica, Arial, sans-serif; letter-spacing: 1.2px; fill: #5b6b75; }
+      .small { font: 600 11px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #4b5b66; }
+      .pipe { fill: none; stroke: #c3ced5; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .flow { fill: none; stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round;
+              stroke-dasharray: 7 11; animation: flow 1.1s linear infinite; }
+      .level { transform-box: fill-box; transform-origin: 50% 100%; animation: drain 7s ease-in-out infinite alternate; }
+      .fill { transform-box: fill-box; transform-origin: 50% 100%; animation: rise 7s ease-in-out infinite alternate, tint 14s linear infinite; }
+      .spin { transform-box: fill-box; transform-origin: 50% 50%; animation: spin 0.9s linear infinite; }
+      .stir { transform-box: fill-box; transform-origin: 50% 50%; animation: stir 0.45s ease-in-out infinite alternate; }
+      .pulse { animation: pulse 1.6s ease-in-out infinite; }
+      .d1 { animation-delay: -1.5s; } .d2 { animation-delay: -3s; } .d3 { animation-delay: -4.5s; } .d4 { animation-delay: -6s; }
+      @keyframes flow { to { stroke-dashoffset: -36; } }
+      @keyframes drain { from { transform: scaleY(0.88); } to { transform: scaleY(0.42); } }
+      @keyframes rise { from { transform: scaleY(0.22); } to { transform: scaleY(0.86); } }
+      @keyframes tint { 0%, 100% { fill: #b23a48; } 33% { fill: #8e99a4; } 66% { fill: #2f8f6b; } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes stir { from { transform: scaleX(1); } to { transform: scaleX(-1); } }
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="338" rx="22" fill="url(#bg)" stroke="#d6e6e7"/>
+  <path d="M640 30 V310" stroke="#d6e6e7" stroke-dasharray="3 6"/>
+
+  <!-- headline -->
+  <text x="56" y="78" class="eyebrow">SIMATIC WINCC ADVANCED · TIA PORTAL V17</text>
+  <text x="54" y="136" class="title">Manufacturing</text>
+  <text x="54" y="186" class="title"><tspan class="accent">Station HMI</tspan></text>
+  <text x="56" y="222" class="lead">Use case: paint manufacturing and batch mixing.</text>
+  <text x="56" y="244" class="lead">UML design, WinCC runtime and TP700 Comfort hardware.</text>
+  <g transform="translate(56 268)">
+    <rect class="chip" width="96" height="30" rx="15"/><text x="48" y="20" text-anchor="middle" class="chiptext">8 screens</text>
+    <rect class="chip" x="106" width="110" height="30" rx="15"/><text x="161" y="20" text-anchor="middle" class="chiptext">117 HMI tags</text>
+    <rect class="chip" x="226" width="96" height="30" rx="15"/><text x="274" y="20" text-anchor="middle" class="chiptext">40 I/O</text>
+    <rect class="chip" x="332" width="110" height="30" rx="15"/><text x="387" y="20" text-anchor="middle" class="chiptext">3 user roles</text>
+    <rect class="chip" x="452" width="84" height="30" rx="15"/><text x="494" y="20" text-anchor="middle" class="chiptext">EN | DE</text>
+  </g>
+
+  <!-- pipes -->
+  <path class="pipe" d="M690 122 V190 H1012 V214 M760 122 V190 M830 122 V190 M900 122 V190 M970 122 V190"/>
+  <path class="pipe" d="M1138 286 H1172"/>
+  <path class="flow" stroke="#c08a3e" d="M690 124 V190"/>
+  <path class="flow" stroke="#d8b63a" d="M760 124 V190"/>
+  <path class="flow" stroke="#d1495b" d="M830 124 V190"/>
+  <path class="flow" stroke="#2f9e5b" d="M900 124 V190"/>
+  <path class="flow" stroke="#3d6fb6" d="M970 124 V190"/>
+  <path class="flow" stroke="#7b5ea7" d="M690 190 H1012 V214"/>
+
+  <!-- ingredient tanks -->
+  <g id="tanks">
+    <g transform="translate(666 42)">
+      <rect width="48" height="80" rx="11" fill="url(#steel)" stroke="#9aa9b3"/>
+      <rect class="level" x="5" y="10" width="38" height="65" rx="7" fill="#c08a3e"/>
+      <rect width="48" height="80" rx="11" fill="url(#gloss)"/>
+    </g>
+    <g transform="translate(736 42)">
+      <rect width="48" height="80" rx="11" fill="url(#steel)" stroke="#9aa9b3"/>
+      <rect class="level d1" x="5" y="10" width="38" height="65" rx="7" fill="#d8b63a"/>
+      <rect width="48" height="80" rx="11" fill="url(#gloss)"/>
+    </g>
+    <g transform="translate(806 42)">
+      <rect width="48" height="80" rx="11" fill="url(#steel)" stroke="#9aa9b3"/>
+      <rect class="level d2" x="5" y="10" width="38" height="65" rx="7" fill="#d1495b"/>
+      <rect width="48" height="80" rx="11" fill="url(#gloss)"/>
+    </g>
+    <g transform="translate(876 42)">
+      <rect width="48" height="80" rx="11" fill="url(#steel)" stroke="#9aa9b3"/>
+      <rect class="level d3" x="5" y="10" width="38" height="65" rx="7" fill="#2f9e5b"/>
+      <rect width="48" height="80" rx="11" fill="url(#gloss)"/>
+    </g>
+    <g transform="translate(946 42)">
+      <rect width="48" height="80" rx="11" fill="url(#steel)" stroke="#9aa9b3"/>
+      <rect class="level d4" x="5" y="10" width="38" height="65" rx="7" fill="#3d6fb6"/>
+      <rect width="48" height="80" rx="11" fill="url(#gloss)"/>
+    </g>
+    <text x="690" y="36" text-anchor="middle" class="tag">RESIN</text>
+    <text x="760" y="36" text-anchor="middle" class="tag">BINDER</text>
+    <text x="830" y="36" text-anchor="middle" class="tag">RED</text>
+    <text x="900" y="36" text-anchor="middle" class="tag">GREEN</text>
+    <text x="970" y="36" text-anchor="middle" class="tag">BLUE</text>
+  </g>
+
+  <!-- valves on resin / binder lines, pumps on pigment lines -->
+  <g fill="#ffffff" stroke="#5b6b75" stroke-width="1.6">
+    <path d="M680 150 L700 162 V150 L680 162 Z"/>
+    <path d="M750 150 L770 162 V150 L750 162 Z"/>
+  </g>
+  <g>
+    <circle cx="830" cy="156" r="12" fill="#ffffff" stroke="#5b6b75" stroke-width="1.6"/>
+    <g class="spin"><path d="M830 146 V166 M821.3 151 L838.7 161 M821.3 161 L838.7 151" stroke="#d1495b" stroke-width="2.4" stroke-linecap="round"/></g>
+    <circle cx="900" cy="156" r="12" fill="#ffffff" stroke="#5b6b75" stroke-width="1.6"/>
+    <g class="spin"><path d="M900 146 V166 M891.3 151 L908.7 161 M891.3 161 L908.7 151" stroke="#2f9e5b" stroke-width="2.4" stroke-linecap="round"/></g>
+    <circle cx="970" cy="156" r="12" fill="#ffffff" stroke="#5b6b75" stroke-width="1.6"/>
+    <g class="spin"><path d="M970 146 V166 M961.3 151 L978.7 161 M961.3 161 L978.7 151" stroke="#3d6fb6" stroke-width="2.4" stroke-linecap="round"/></g>
+  </g>
+
+  <!-- mixing tank with agitator -->
+  <rect x="990" y="210" width="150" height="100" rx="22" fill="url(#steel)" stroke="#9aa9b3"/>
+  <g clip-path="url(#mixClip)">
+    <rect class="fill" x="992" y="212" width="146" height="96" fill="#b23a48"/>
+  </g>
+  <rect x="990" y="210" width="150" height="100" rx="22" fill="url(#gloss)"/>
+  <rect x="1050" y="186" width="30" height="22" rx="5" fill="#0f6e78"/>
+  <rect x="1063" y="208" width="4" height="80" fill="#5b6b75"/>
+  <g class="stir"><rect x="1037" y="284" width="56" height="7" rx="3.5" fill="#46545e"/></g>
+  <g class="stir" style="animation-delay:-0.22s"><rect x="1045" y="258" width="40" height="6" rx="3" fill="#46545e"/></g>
+  <path d="M1158 279 L1172 293 V279 L1158 293 Z" fill="#ffffff" stroke="#5b6b75" stroke-width="1.6"/>
+  <text x="1065" y="328" text-anchor="middle" class="tag">MIXING TANK</text>
+
+  <!-- mini status panel -->
+  <g transform="translate(1032 42)">
+    <rect width="128" height="96" rx="12" fill="#ffffff" stroke="#cfe3e5"/>
+    <text x="14" y="24" class="tag">CONTROL MODE</text>
+    <rect x="14" y="34" width="72" height="24" rx="12" fill="#e3f4ea"/>
+    <circle class="pulse" cx="28" cy="46" r="5" fill="#2f9e5b"/>
+    <text x="40" y="51" class="chiptext" style="font-size:12px">AUTO</text>
+    <text x="14" y="78" class="small">Batch 052B · 85 L</text>
+  </g>
+</svg>
